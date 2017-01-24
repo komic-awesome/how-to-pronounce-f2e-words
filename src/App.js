@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
-import RaisedButton from 'material-ui/RaisedButton';
 import MarkdownElement from './components/MarkdownElement';
+import PronunciationWord from './components/PronunciationWord';
 import introMarkdown from './intro.md';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <AppBar title={document.title} showMenuIconButton={false} />
         <MarkdownElement text={introMarkdown} />
-        <RaisedButton label="Default"/>
+        <PronunciationWord word="hello" ipa="hə'loʊ"/>
       </div>
     );
   }
