@@ -111,7 +111,8 @@ module.exports = {
           /\.(js|jsx)$/,
           /\.css$/,
           /\.json$/,
-          /\.svg$/
+          /\.svg$/,
+          /\.md$/
         ],
         loader: 'url',
         query: {
@@ -154,10 +155,14 @@ module.exports = {
         query: {
           name: 'static/media/[name].[hash:8].[ext]'
         }
+      },
+      {
+        test: /\.md$/,
+        loader: 'raw'
       }
     ]
   },
-  
+
   // We use PostCSS for autoprefixing only.
   postcss: function() {
     return [
