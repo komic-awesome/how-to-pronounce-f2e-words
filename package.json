@@ -31,6 +31,8 @@
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.2",
     "jest": "17.0.2",
+    "js-beautify": "1.6.8",
+    "js-yaml": "3.7.0",
     "json-loader": "0.5.4",
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
@@ -50,7 +52,8 @@
     "marked": "0.3.6",
     "material-ui": "^0.16.7",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
   },
   "scripts": {
     "start": "node scripts/start.js",

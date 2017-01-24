@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
 import MarkdownElement from './components/MarkdownElement';
-import PronunciationWord from './components/PronunciationWord';
+import WordList from './generated-components/WordList';
 import introMarkdown from './intro.md';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+injectTapEventPlugin();
 
 class App extends Component {
   render() {
@@ -10,7 +13,9 @@ class App extends Component {
       <div>
         <AppBar title={document.title} showMenuIconButton={false} />
         <MarkdownElement text={introMarkdown} />
-        <PronunciationWord word="hello" ipa="hə'loʊ"/>
+        <MarkdownElement>
+          <WordList />
+        </MarkdownElement>
       </div>
     );
   }

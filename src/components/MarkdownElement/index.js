@@ -38,16 +38,28 @@ class MarkdownElement extends Component {
     const {
       style,
       text,
+      children,
     } = this.props;
 
     /* eslint-disable react/no-danger */
+
+    let View = (props) => {
+      return (
+        <div style={ Object.assign({}, styles.root, style) }
+          className="markdown-body"
+          {...props}
+        >{ props.children }</div>
+      )
+    }
+
+    if (children) {
+      return (<View>{children}</View>)
+    }
+
     return (
-      <div
-        style={Object.assign({}, styles.root, style)}
-        className="markdown-body"
-        dangerouslySetInnerHTML={{__html: marked(text)}}
-      />
+      <View dangerouslySetInnerHTML={{__html: marked(text)}} />
     );
+
     /* eslint-enable */
   }
 }
