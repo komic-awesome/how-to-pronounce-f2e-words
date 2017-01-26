@@ -6,9 +6,17 @@ export default () => (<div>
     <h3>前端框架</h3>
     <div>
       <PronunciationWord word="redux" ipa="riː'dʌks" />
+      <PronunciationWord word="yarn" ipa="jɑːrn" />
       <PronunciationWord word="gulp" ipa="ɡʌlp" />
       <PronunciationWord word="grunt" ipa="ɡrʌnt" />
       <PronunciationWord word="angular" ipa="'æŋɡjələr" />
+      <PronunciationWord word="brunch" ipa="brʌntʃ" />
+      <PronunciationWord word="react" ipa="ri'ækt" />
+      <PronunciationWord word="jasmine" ipa="'dʒæzmɪn" />
+      <PronunciationWord word="jest" ipa="dʒɛst" />
+      <PronunciationWord word="backbone" ipa="ˈbækˌboʊn" />
+      <PronunciationWord word="mocha" ipa="moh-kuh" />
+      <PronunciationWord word="vue" ipa="vjuː" />
     </div>
   </section>
   <section>
@@ -17,6 +25,11 @@ export default () => (<div>
       <PronunciationWord word="Laravel" ipa="'lærəvel" />
       <PronunciationWord word="github" ipa="ɡɪthʌb" />
       <PronunciationWord word="azure" ipa="ˈæʒɚ" />
+      <PronunciationWord word="electron" ipa="ɪ'lektrɑːn" />
+      <PronunciationWord word="ionic" ipa="aɪ'ɑːnɪk" />
+      <PronunciationWord word="boilerplate" ipa="ˈbɔɪləˌpleɪt" />
+      <PronunciationWord word="nuclide" ipa="ˈnjuːklaɪd" />
+      <PronunciationWord word="atom" ipa="ˈæt əm" />
     </div>
   </section>
 </div>)
