@@ -15,7 +15,7 @@ export default () => (<div>
       <PronunciationWord word="jasmine" ipa="'dʒæzmɪn" />
       <PronunciationWord word="jest" ipa="dʒɛst" />
       <PronunciationWord word="backbone" ipa="ˈbækˌboʊn" />
-      <PronunciationWord word="mocha" ipa="moh-kuh" />
+      <PronunciationWord word="mocha" ipa="ˈmoʊ kə" />
       <PronunciationWord word="vue" ipa="vjuː" />
     </div>
   </section>
