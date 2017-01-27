@@ -30,6 +30,7 @@ export default () => (<div>
       <PronunciationWord word="boilerplate" ipa="ˈbɔɪləˌpleɪt" />
       <PronunciationWord word="nuclide" ipa="ˈnjuːklaɪd" />
       <PronunciationWord word="atom" ipa="ˈæt əm" />
+      <PronunciationWord word="YAML" ipa="ˈjæməl" />
     </div>
   </section>
 </div>)
