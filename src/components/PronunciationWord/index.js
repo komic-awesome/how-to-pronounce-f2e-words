@@ -4,12 +4,12 @@ import RaisedButton from 'material-ui/RaisedButton';
 function playSound(url){
   var audio = document.createElement('audio');
   audio.style.display = "none";
-  audio.src = url;
-  audio.autoplay = true;
+  document.body.appendChild(audio);
   audio.onended = function(){
     audio.remove()
   };
-  document.body.appendChild(audio);
+  audio.src = url;
+  audio.play();
 }
 
 class MarkdownElement extends Component {
