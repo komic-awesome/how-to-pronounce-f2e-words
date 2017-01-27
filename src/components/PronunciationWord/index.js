@@ -38,7 +38,7 @@ class MarkdownElement extends Component {
 
     let labelStyle = { textTransform: 'none', }
       , style = { margin: 12, }
-      , label = word + ' [' + ipa + ']'
+      , label = word + ' /' + ipa + '/'
 
     return (
       <RaisedButton
