@@ -10,6 +10,7 @@ export default () => (<div>
       <PronunciationWord word="gulp" ipa="ɡʌlp" />
       <PronunciationWord word="grunt" ipa="ɡrʌnt" />
       <PronunciationWord word="angular" ipa="'æŋɡjələr" />
+      <PronunciationWord word="polymer" ipa="ˈpɒlᵻmər" />
       <PronunciationWord word="brunch" ipa="brʌntʃ" />
       <PronunciationWord word="react" ipa="ri'ækt" />
       <PronunciationWord word="jasmine" ipa="'dʒæzmɪn" />
@@ -31,6 +32,7 @@ export default () => (<div>
       <PronunciationWord word="nuclide" ipa="ˈnjuːklaɪd" />
       <PronunciationWord word="atom" ipa="ˈæt əm" />
       <PronunciationWord word="YAML" ipa="ˈjæməl" />
+      <PronunciationWord word="elixir" ipa="ɪˈlɪk sər" />
     </div>
   </section>
 </div>)
