@@ -26,3 +26,13 @@
     atom: "ˈæt əm"
     YAML: "ˈjæməl"
     elixir: "ɪˈlɪk sər"
+
+- title: "函数式编程相关概念"
+  words:
+    monad: "'mɑːnæd"
+    functor: "'fʌŋktər"
+    applicative: "'æpləˌkeɪtɪv"
+    identity: "aɪ'dentəti"
+    compose: "kəm'poʊz"
+    curry: "'kɜːri"
+    morphism: "'mɔːfɪzm"

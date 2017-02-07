@@ -35,4 +35,16 @@ export default () => (<div>
       <PronunciationWord word="elixir" ipa="ɪˈlɪk sər" />
     </div>
   </section>
+  <section>
+    <h3>函数式编程相关概念</h3>
+    <div>
+      <PronunciationWord word="monad" ipa="'mɑːnæd" />
+      <PronunciationWord word="functor" ipa="'fʌŋktər" />
+      <PronunciationWord word="applicative" ipa="'æpləˌkeɪtɪv" />
+      <PronunciationWord word="identity" ipa="aɪ'dentəti" />
+      <PronunciationWord word="compose" ipa="kəm'poʊz" />
+      <PronunciationWord word="curry" ipa="'kɜːri" />
+      <PronunciationWord word="morphism" ipa="'mɔːfɪzm" />
+    </div>
+  </section>
 </div>)
