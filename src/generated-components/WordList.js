@@ -33,6 +33,7 @@ export default () => (<div>
       <PronunciationWord word="atom" ipa="ˈæt əm" />
       <PronunciationWord word="YAML" ipa="ˈjæməl" />
       <PronunciationWord word="elixir" ipa="ɪˈlɪk sər" />
+      <PronunciationWord word="Yii" ipa="ji:" />
     </div>
   </section>
   <section>
